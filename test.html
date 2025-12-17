@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="appointment">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
+							<img src="img/section-img.png" alt="#">
+							<!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p> -->
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-12">
+						<form
+						id="appointmentForm"
+						class="form"
+						action="https://script.google.com/macros/s/AKfycbxSRVkbPqJ095fLCvgGhu2eQUmOD4Q8C3gGc8Y-aGBXcQfA5AlH3OQCD159WmjjSZ4P/exec"
+						method="POST"
+  						target="hidden_iframe"
+						>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="name" type="text" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="email" type="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<input name="phone" type="text" placeholder="Phone">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<select name="qualification" class="form-control">
+  <option value="">Qualification</option>
+  <option>SSLC</option>
+  <option>PLUS TWO</option>
+  <option>BACHELOR'S DEGREE</option>
+  <option>MASTER'S DEGREE</option>
+  <option>DIPLOMA / OTHER COURSES</option>
+</select>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<textarea name="message" placeholder="Write Your Message Here....."></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-5 col-md-4 col-12">
+									<div class="form-group">
+										<div class="button">
+											<button type="submit" class="btn">Book An Appointment</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-7 col-md-8 col-12">
+									<p>( We will respond as soon as possible )</p>
+								</div>
+							</div>
+							<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+						</form>
+					</div>
+					<div class="col-lg-6 col-md-12 ">
+						<div class="appointment-image">
+							<img src="img/contact-img.png" alt="#">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+</body>
+</html>
